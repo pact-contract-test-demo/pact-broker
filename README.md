@@ -11,6 +11,11 @@ Docs: https://docs.pact.io/pact_broker
 - https://docs.pactflow.io/docs/workshops/ci-cd
 - https://github.com/pact-foundation/pact-broker-docker
 
+## Demos
+
+- see [README-local.md](README-local.md) for a local setup 
+- see [README-remote.md](README-remote.md) for a remote setup including webhooks
+
 ## Flows: Consumer
 
 > with a changed contract

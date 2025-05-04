@@ -1,0 +1,11 @@
+{
+  "event_type": "contract_requiring_verification_published",
+  "client_payload": {
+    "pact_url": "${pactbroker.pactUrl}",
+    "pact_provider_name": "${pactbroker.providerName}",
+    "pact_provider_version": "${pactbroker.providerVersionNumber}",
+    "sha": "${pactbroker.providerVersionNumber}",
+    "branch": "${pactbroker.providerVersionBranch}",
+    "message": "Verify changed pact for ${pactbroker.consumerName} (version ${pactbroker.consumerVersionNumber}, branch ${pactbroker.consumerVersionBranch}) by ${pactbroker.providerName} (version ${pactbroker.providerVersionNumber}, description ${pactbroker.providerVersionDescriptions})"
+  }
+}
